@@ -7,6 +7,13 @@ setup(
     version="0.1",
     packages=find_packages(),
     install_requires=[
-        "pandas",  # falls du Abhängigkeiten hast
+        "pandas",
+        "openpyxl"  # falls du Abhängigkeiten hast
     ],
 )
+
+
+
+
+
+

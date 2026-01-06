@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from typing import Tuple, Dict
 from sklearn.cluster import KMeans
 from typing import Iterable, Dict, Any
-
+from sklearn.cross_decomposition import PLSRegression
 
 
 
