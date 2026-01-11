@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datasci-automation"
+version = "0.1.0"
+description = "Reusable data science automation pipelines"
+authors = [{ name="Your Name", email="you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.4"
+]
+
+[project.scripts]
+datasci-analyze = "cli.analyze:main"
+
+
+
+
+
+
