@@ -8,7 +8,7 @@ class DataPipeline:
         self.steps = steps
 
     def fit(self, X: pd.DataFrame, y=None):
-        sel.summary = dataframe_summary(X)
+        self.summary = dataframe_summary(X)
         for step in self.steps:
             X = step.fit_transform(X, y)
         self._last_X = X
